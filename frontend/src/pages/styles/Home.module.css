@@ -1,0 +1,55 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 24px;
+}
+
+.topbar {
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsOnYoursMind {
+    user-select: none;
+    outline: none;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 20px;
+    border: 0.1px solid #CCCCCC;
+    font-family: sans-serif;
+    flex: auto;
+}
+
+.whatsOnYoursMind:active {
+    user-select: none;
+    outline: none;
+}
+
+.usersStores {
+    position: relative;
+    width: 100%;
+    margin: 16px 0px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.divider {
+    width: 2px;
+    height: 40px;
+    border-left: 1px solid #CCCCCC;
+    margin: 0px 28px;
+}
+
+.profiles {
+    position: absolute;
+    left: 110px;
+    display: flex;
+    overflow: hidden;
+}

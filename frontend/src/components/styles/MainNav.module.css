@@ -1,0 +1,21 @@
+.container {
+    width: 260px;
+    min-width: 260px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.grapseeImage {
+    width: 75px;
+    height: 75px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.list {
+    width: 100%;
+}

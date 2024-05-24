@@ -1,0 +1,14 @@
+* {
+    user-select: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+* ::-webkit-scrollbar {
+    display: none;
+}
+
+pre {
+	white-space: pre-line;
+}

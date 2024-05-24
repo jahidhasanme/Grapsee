@@ -1,0 +1,17 @@
+.container {
+    width: 450px;
+    min-width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    overflow-y: scroll;
+    border-left: 1px solid #CCCCCC;
+}
+
+.banner {
+    position: relative;
+    height: 200px;
+    margin: 16px 35px;
+    border-radius: 20px;
+}

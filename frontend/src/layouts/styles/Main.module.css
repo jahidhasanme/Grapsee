@@ -1,0 +1,63 @@
+.container {
+    height: 100%;
+    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    display: flex;
+}
+
+.grapseeImage {
+    height: 24px;
+    width: 24px;
+}
+
+.pages {
+    flex: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.pageHeader {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.grapseeText {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.grapseeImageBtn {
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.grapseeImageBtn > img {
+    height: 35px;
+    width: 35px;
+    margin-left: -5px;
+}
+
+.headerBtns {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.pageFooter {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 12px;
+}
