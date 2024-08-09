@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Grapsee</string>
+
+    <string name="ok_btn" tools:ignore="ButtonCase,Typos">Ok</string>
+    <string name="yes_btn">Yes</string>
+    <string name="no_btn">No</string>
+    <string name="settings_btn">Settings</string>
+
+    <string name="exit_dialog_title">Exit!</string>
+    <string name="exit_dialog_descriptions">Do you want to exit the app?</string>
+
+    <string name="no_internet_dialog_title">No Internet Connection</string>
+    <string name="no_internet_dialog_msg">Please connect to the internet and try again.</string>
+
+</resources>
