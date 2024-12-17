@@ -130,7 +130,7 @@ const Post = ({ type, firstPostId, isOthersUser }) => {
 
                             <div style={{ padding: '8px 16px', display: 'flex', flexDirection: 'column', overflowX: 'auto' }}>
                                 <div style={{ width: '100%' }}>
-                                    <pre style={{ fontSize: '17px' }}>{post.content}</pre>
+                                    <div style={{ fontSize: '17px' }}>{post.content}</div>
                                 </div>
                                 {
                                     (post.type === "image" && post.url) && <img src={post.url} style={{ width: '100%', maxHeight: '320px', marginTop: '10px', borderRadius: '15px' }} alt='Loading...' />

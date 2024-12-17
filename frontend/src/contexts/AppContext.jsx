@@ -29,8 +29,8 @@ const AppContextProvider = ({ children }) => {
       const message = JSON.parse(event.data);
       switch (message.type) {
         case 'ERROR':
-          console.error('Error: ' + message.payload);
-          setError(message.payload)
+          //console.error('Error: ' + message.payload);
+          //setError(message.payload)
           break;
         case 'LOGIN_SUCCESS':
           window.localStorage.setItem('user', JSON.stringify(message.payload.user));
@@ -150,7 +150,7 @@ const AppContextProvider = ({ children }) => {
         case 'PONG':
           break;
         default:
-          console.error('Invalid action type');
+          //console.error('Invalid action type');
           break;
       }
     }
