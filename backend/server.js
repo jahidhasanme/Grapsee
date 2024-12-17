@@ -21,13 +21,13 @@ const JWT_SECRET = process.env.JWT_SECRET;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/grapsee';
 const PORT = process.env.PORT || 4000;
 
-const BASE_URL = 'http://localhost:4000/';
+const BASE_URL = 'http://localhost:4000';
 
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(MONGODB_URI);
 const db = mongoose.connection;
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
