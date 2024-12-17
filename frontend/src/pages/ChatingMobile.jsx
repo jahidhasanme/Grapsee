@@ -115,7 +115,7 @@ const ChatingMobile = () => {
         formData.append('file', selectedFile);
         setUploading(true);
         try {
-            const response = await axios.post('https://api.grapsee.com/upload', formData, {
+            const response = await axios.post('http://localhost:4000/upload', formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data'
                 }

@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react';
 import GrapseeIcon from '../assets/grapsee.png';
 
-const WS_URL = 'wss://api.grapsee.com';
+const WS_URL = 'ws://localhost:4000';
 export const WebSocketContext = createContext();
 
 export const WebSocketProvider = ({ children }) => {

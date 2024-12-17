@@ -19,9 +19,9 @@ dotenv.config();
 
 const JWT_SECRET = process.env.JWT_SECRET;
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/grapsee';
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 
-const BASE_URL = 'http://103.169.160.183:3000/';
+const BASE_URL = 'http://localhost:4000/';
 
 const app = express();
 app.use(cors());
@@ -104,7 +104,7 @@ app.use((err, req, res, next) => {
     }
 });
 
-const server = app.listen(PORT, 'http://103.169.160.183', () => {
+const server = app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
 

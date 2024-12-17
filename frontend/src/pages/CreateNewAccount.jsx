@@ -162,7 +162,7 @@ const CreateNewAccount = () => {
       const formData = new FormData();
       formData.append('file', selectedFile);
 
-      const response = await axios.post('https://api.grapsee.com/upload', formData, {
+      const response = await axios.post('http://localhost:4000/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
